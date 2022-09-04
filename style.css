@@ -22,10 +22,10 @@ body{
     padding-bottom: 25px;
 }
 .container{
-    max-width: 300px;
+    max-width: 315px;
     padding: 20px 0px 20px 0px;
 }
-.container-green-box{
+.container-megatlon-box{
     max-width: 300px;
     margin: 0 auto;
     padding: 1px;
@@ -63,7 +63,7 @@ h2{
     color: #6F1328;
     padding: 0px 0px 10px 0px;
 }
-.green-box{
+.megatlon-box{
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     background-color: #1c1a34;
@@ -117,7 +117,6 @@ h4{
 .container-oferta{
     padding-top: 10px;
     padding-bottom: 25px;
-    max-width: 315px;
     margin: 0 auto;
     background-image: url(img/SCROLL.gif);
     background-position-x: center;
@@ -170,7 +169,7 @@ option{
 }
 .formulario-box{
     padding: 15px;
-    margin-top: 10px;
+    margin: 10px 15px 0px 10px;
     background-color: #D6D6C7;
     border-radius: 30px;
 }
@@ -190,18 +189,21 @@ option{
     background-color: #496d2e;
     color: #f3edec;
     border: none;
-    border-radius: 8px;
+    border-radius: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 8px 8px 8px 8px;
 }
-
-
-
 .contact-card{
     padding: 30px 0px 30px 0px;
     align-items: center;
-    height: 230px;
+    justify-content: center;
+    height: 200px;
+    width: 95%;
+    background-color: #f3edec;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 30px;
 }
 .button-contact{
     width: 250px;
@@ -210,16 +212,14 @@ option{
     margin: 10px 8px;
     color: #f3edec;
     background-color: #496d2e;
-    border-radius: 8px;
+    border-radius: 30px;
 }
 .icon-button-footer{
     justify-content: left;
-    margin: 0px 60px 0px 0px;
+    margin: 0px 40px 0px 0px;
     padding: 0px;
     height: 25px;
 }
-
-
 .contacto{
     max-width: 95%;
     height: 500px;
