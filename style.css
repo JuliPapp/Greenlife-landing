@@ -1,0 +1,207 @@
+*{
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    max-height: 1500px;
+}
+.content-select select{
+	appearance: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+body{
+    max-width: 375px;
+    max-height: 1500px;
+    text-align: center;
+    font-family: 'Darker Grotesque', sans-serif;
+    background-color: #D6D6C7;
+    width: 100%;
+    color: #000000;
+}
+.fondo{
+    background-color: #f3edec;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 95%;
+    padding-bottom: 25px;
+}
+.container{
+    max-width: 300px;
+    padding: 20px 0px 20px 0px;
+}
+.container-green-box{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 1px;
+    padding-top: 5px;
+}
+.slogan{
+    font-weight:normal;
+    font-size: 23px;
+    color: #f3edec;
+    text-shadow: 1px 1px 5px #a8a8a8;
+}
+.greenlife-img{
+    max-width: 75%;
+    padding-bottom: 190px;
+    padding-top: 5px;
+}
+.portada{
+    padding-top: 20px;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-image: url(img/joven-bebiendo.png);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+main{
+    top: 5px;
+}
+.destaque{
+    color: #6F1328;
+}
+h2{
+    font-weight: bold;
+    font-size: 33px;
+    color: #6F1328;
+    padding: 0px 0px 10px 0px;
+}
+.green-box{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-color: #1c1a34;
+    color: #f3edec;
+    max-height: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 130px;
+    margin: 0px 15px 0px 15px;
+}
+h3{
+    text-transform: uppercase;
+    font-size: 80px;
+    font-family: 'Roboto';
+    font-weight:bolder;
+    line-height: 80px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+h4{
+    margin-right: 0px;
+    margin-left: 20px;
+    font-size:medium;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: left;
+    text-align: left;
+    line-height: 15px;
+}
+.megatlon{
+    width: 50%;
+    padding-right: 20px;
+    padding-top: 10px;
+}
+.entrenamiento{
+    background-image: url(img/workout-recuperado.jpeg);
+    background-size: 375px 185.0649px;
+    background-repeat: no-repeat;
+    height: 185.0649px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin: 0px 15px 0px 15px;
+}
+.container-oferta{
+    padding-top: 10px;
+    padding-bottom: 25px;
+    max-width: 315px;
+    margin: 0 auto;
+    background-image: url(img/SCROLL.gif);
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: 6%;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.line{
+    height: 1px;
+    width: 60%;
+    background-color: #6F1328;
+}
+input{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    color: #000000;
+}
+::placeholder{
+    color: #000000;
+    text-align: left;
+}
+.form-campos{
+    padding: 5px 5px 5px 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+    background-color: #f3edec;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+}
+select{
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 16px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    background-image: url(img/select-01.svg);
+    background-size: 8%;    
+}
+select::-ms-expand {
+    display: none; /*Evita que se muestre la flecha por defecto en versiones de IE*/
+}
+option{
+    text-align: left;
+}
+.formulario-box{
+    padding: 15px;
+    margin-top: 10px;
+    background-color: #D6D6C7;
+    border-radius: 30px;
+}
+.formulario{
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+.beneficio{
+    width: 150px;
+    margin: 0 auto;
+}
+.button-submit{
+    font-size: 20px;
+    width: 250px;
+    background-color: #496d2e;
+    color: #f3edec;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 8px 8px 8px;
+}
+.contacto{
+    max-width: 95%;
+    height: 500px;
+    background-color: #496d2e;
+}
