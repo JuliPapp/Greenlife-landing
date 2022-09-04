@@ -11,6 +11,7 @@
 	-moz-appearance: none;
 }
 body{
+    user-select: contain;
     max-width: 375px;
     max-height: 1500px;
     text-align: center;
